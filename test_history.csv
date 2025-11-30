@@ -1,0 +1,15 @@
+timestamp,run_id,step_name,action_type,selector,status,error_message,duration_ms
+2025-11-28T21:06:57.994530,54b1d34e,Navigate to Home,navigation,url:flight-search,1,,1968.0671691894531
+2025-11-28T21:07:01.069390,54b1d34e,Handle Overlays,javascript,consent_buttons,1,,41.94903373718262
+2025-11-28T21:07:04.408879,54b1d34e,Set Origin,input,input[name*='originCode'],1,,3333.7860107421875
+2025-11-28T21:07:07.354251,54b1d34e,Set Destination,input,input[name*='destinationCode'],1,,2941.1041736602783
+2025-11-28T21:07:37.576637,54b1d34e,Select Dates,complex_interaction,input[name*='travelDatetime'],0,"Locator.click: Timeout 30000ms exceeded. Call log: waiting for locator(""input[name*='travelDatetime']"").first ",30219.295978546143
+2025-11-28T21:08:07.803222,54b1d34e,Click Search,click,button:has-text('Search flights'),0,"Locator.click: Timeout 30000ms exceeded. Call log: waiting for locator(""button:has-text('Search flights')"").first ",30218.810081481934
+2025-11-28T21:08:17.858914,54b1d34e,Wait for Results,wait,div[class*='price'],0,Timeout waiting for price elements,10032.172918319702
+2025-11-28T21:12:25.164954,54323481,Navigate to Home,navigation,url:flight-search,1,,1927.8652667999268
+2025-11-28T21:12:28.205215,54323481,Handle Overlays,javascript,consent_buttons,1,,13.067960739135742
+2025-11-28T21:12:31.415496,54323481,Set Origin,input,input[name*='originCode'],1,,3207.0529460906982
+2025-11-28T21:12:34.414954,54323481,Set Destination,input,input[name*='destinationCode'],1,,2995.529890060425
+2025-11-28T21:13:04.658333,54323481,Select Dates,complex_interaction,input[name*='travelDatetime'],0,"Locator.click: Timeout 30000ms exceeded. Call log: waiting for locator(""input[name*='travelDatetime']"").first ",30234.51805114746
+2025-11-28T21:13:34.873204,54323481,Click Search,click,button:has-text('Search flights'),0,"Locator.click: Timeout 30000ms exceeded. Call log: waiting for locator(""button:has-text('Search flights')"").first ",30207.257747650146
+2025-11-28T21:13:44.885955,54323481,Wait for Results,wait,div[class*='price'],0,Timeout waiting for price elements,10007.061004638672
